@@ -11,7 +11,7 @@ making a package that depends on other packages. The only difference between
 your project and a library is that your project is a package without a name.
 
 In order to make that package installable you need to give it a name. You do
-this by adding the [`name`](04-schema.md#name) property in `composer.json`:
+this by adding the [`koeza`](04-schema.md#name) property in `composer.json`:
 
 ```json
 {
